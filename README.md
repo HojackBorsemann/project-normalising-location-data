@@ -12,7 +12,7 @@ To achieve this, the pipeline follows a **three steps**:
 3. **Mapping locations** -> Once the location data is enriched, it is mapped to a self-created set of location groupings (called "RDI Area Codes") based on country-specific grouping rules, ensuring consistency and accuracy across analyses
 
 **Illustrative Output:**
-[](/temp/geolocation_output.png)
+![](temp/geolocation_output.png)
 
 <br>
 
