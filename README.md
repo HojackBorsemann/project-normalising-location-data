@@ -52,7 +52,7 @@ To achieve this, the pipeline follows a **three steps**:
 <br>
 
 ### 🚀 Challenges & Insights 
-⚠️ **Different Countries Handle Locations Uniquely**
+⚠️ **Different Countries Handle Locations Uniquely**  
 Although we are used to how addresses are written in our home countries, the rest of the world varies significantly—for example, the order of city and state, or using zip codes versus postcodes  
 **Solution:** Conduct detailed research into each country’s address format and integrate flexible parameters within the API Query process to accommodate these differences
 
