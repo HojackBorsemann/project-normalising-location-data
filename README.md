@@ -53,13 +53,13 @@ To achieve this, the pipeline follows a **three steps**:
 
 ### 🚀 Challenges & Insights 
 ⚠️ **Different Countries Handle Locations Uniquely**
-Although we are used to how addresses are written in our home countries, the rest of the world varies significantly—for example, the order of city and state, or using zip codes versus postcodes
+Although we are used to how addresses are written in our home countries, the rest of the world varies significantly—for example, the order of city and state, or using zip codes versus postcodes  
 **Solution:** Conduct detailed research into each country’s address format and integrate flexible parameters within the API Query process to accommodate these differences
 
 ⚠️ **Ensuring Geolocation Accuracy through Iterative Data Pre-processing**  
 Free-form location text can be messy, with certain words often leading to poor API accuracy
-**Solution:** Implement multiple rounds of data cleaning to identify and remove or standardise problematic terms such as "remote" or "work from home", which frequently misled the API
+**Solution:** Implement multiple rounds of data cleaning to identify and remove or standardise problematic terms such as "remote" or "work from home", which frequently misled the API  
 
 ⚠️ **Some Locations Are Too Dirty! What Do We Do?**  
-A small proportion of locations remain too vague or inconsistent to be reliably geolocated
+A small proportion of locations remain too vague or inconsistent to be reliably geolocated  
 **Solution:** Accept that dropping a minor percentage of data is acceptable when it prevents unnecesary manual intervention, especially if these cases represent only a trivial fraction of the overall dataset (in this case, less then 1%!)
