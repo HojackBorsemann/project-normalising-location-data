@@ -57,7 +57,7 @@ Although we are used to how addresses are written in our home countries, the res
 **Solution:** Conduct detailed research into each country’s address format and integrate flexible parameters within the API Query process to accommodate these differences
 
 ⚠️ **Ensuring Geolocation Accuracy through Iterative Data Pre-processing**  
-Free-form location text can be messy, with certain words often leading to poor API accuracy
+Free-form location text can be messy, with certain words often leading to poor API accuracy  
 **Solution:** Implement multiple rounds of data cleaning to identify and remove or standardise problematic terms such as "remote" or "work from home", which frequently misled the API  
 
 ⚠️ **Some Locations Are Too Dirty! What Do We Do?**  
