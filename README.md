@@ -9,7 +9,7 @@
 To achieve this, the pipeline follows a **three steps**:
 1. **Data Cleaning** -> Raw location strings are refined by removing extraneous words (e.g., "remote", "offsite", "work from home") that could mislead the API. In cases of multiple locations in a single entry, the data is split and processed separately
 2. **Geolocation Extraction** -> A custom function queries the LocationIQ API with free-form location text, extracting vital geolocation elements while employing back-off strategies to manage API rate limiting
-3. **Mapping locations** -> Once the location data is enriched, it is mapped to a self-created set of location groupings (called "RDI Area Codes") based on country-specific grouping rules, ensuring consistency and accuracy across analyses
+3. **Mapping locations** -> Once the location data is enriched, it is mapped to a self-created set of location groupings (called "RDI Lens") based on country-specific grouping rules, ensuring consistency and accuracy across analyses
 
 **Illustrative Output:**
 ![](temp/geolocation_output.png)
@@ -46,8 +46,8 @@ To achieve this, the pipeline follows a **three steps**:
 - **Location Accuracy:** Establish criteria to distinguish between accurate and inaccurate geolocations
 - **Managing Problematic Locations:** Outline a process for evaluating and managing locations that fail to match, developing workaround
 
-**4️⃣ Mapping to RDI Area Codes**  
-- **Read-Across Mapping:** Use read-across tables to allocate each location with RDI Area Code
+**4️⃣ Mapping to RDI Lens**  
+- **Read-Across Mapping:** Use read-across tables to allocate each location with RDI Lens
 - **Handle Missing Information:** For records that cannot read-across because of missing data, apply proximity-based approach to allocating as a fallback
 <br>
 
