@@ -17,9 +17,9 @@ To achieve this, the pipeline follows a **three steps**:
 <br>
 
 ### 🎯 KPIs (Key Performance Indicators)
-✅ **Geolocation Accuracy** - Ensure that the LocationIQ API accurately extracts key location elements (city, state, country) from the raw data
-✅ **Processing Throughput** - Monitor and optimise batch processing times to ensure the pipeline can efficiently handle large datasets
-✅ **Minimise Failure Rate** – Keep the proportion of records that cannot be accurately geolocated below 5%
+✅ **Geolocation Accuracy** - Ensure that the LocationIQ API accurately extracts key location elements (city, state, country) from the raw data  
+✅ **Processing Throughput** - Monitor and optimise batch processing times to ensure the pipeline can efficiently handle large datasets  
+✅ **Minimise Failure Rate** – Keep the proportion of records that cannot be accurately geolocated below 5%  
 <br>
 
 ### 📘 Project notebooks
