@@ -2,11 +2,11 @@
 
 ### 📌 Project Overview
 - This project details an **end-to-end geolocation pipeline** to convert **clean, normalise, and enrich location data*** extracted from our datalake of scraped online job descriptions
-- Using the **LocationIQ API**, the pipeline extracts key location elements—such as zip code, city, state, and country—from unstructured job description data
+- Using the **LocationIQ API**, the pipeline extracts key location elements e.g. zip code, city, and state, from unstructured job description data
 - The enriched locations enable **location-based analytics that supports detailed regional reporting**
 
 
-To achieve this, the pipeline follows a **three steps**:
+To achieve this, the pipeline follows **three steps**:
 1. **Data Cleaning** -> Raw location strings are refined by removing extraneous words (e.g., "remote", "offsite", "work from home") that could mislead the API. In cases of multiple locations in a single entry, the data is split and processed separately
 2. **Geolocation Extraction** -> A custom function queries the LocationIQ API with free-form location text, extracting vital geolocation elements while employing back-off strategies to manage API rate limiting
 3. **Mapping locations** -> Once the location data is enriched, it is mapped to a self-created set of location groupings (called "RDI Lens") based on country-specific grouping rules, ensuring consistency and accuracy across analyses
