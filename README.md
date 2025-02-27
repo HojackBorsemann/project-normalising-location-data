@@ -24,7 +24,7 @@ To achieve this, the pipeline follows **three steps**:
 
 ### 📘 Project notebooks
 - 📄 **[Cleaning dirty, unstructured location data from job descriptions](/notebooks/cleaning_unstructured_location_data.ipynb)**
-- 📄 **[Geolocating cleaned location data using LocationIQ API](/notebooks/geolocating_with_api)**
+- 📄 **[Geolocating cleaned location data using LocationIQ API](/notebooks/geolocating_with_api.ipynb)**
 - 📄 **[Mapping geolocated locations to self-made location grouping schema](/notebooks/matching_to_grouping_schema.ipynb)**
 <br>
 
